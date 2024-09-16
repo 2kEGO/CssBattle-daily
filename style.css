@@ -1,0 +1,33 @@
+.flower {
+    height:50vmin;
+    left:50%;
+    position:absolute;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:50vmin;
+  }
+
+.flower:after {
+    background-color:#fc0;
+    border-radius:50%;
+    bottom:25%;
+    content:"";
+    left:25%;
+    position:absolute;
+    right:25%;
+    top:25%;
+}
+
+.petal {
+    background-color:#f09;
+    border-radius:50%;
+    height:25vmin;
+    left:12.5vmin;
+    position:absolute;
+    top:0;
+    transform-origin:center bottom;
+    width:25vmin;
+}
+
+
+
